@@ -1,0 +1,261 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap');
+
+/* 
+warna utama: #FFFFFF;
+warna kedua: #E3F6F6;
+warna ketiga: #4350A0;
+*/
+
+.custom-nav .navbar-brand span {
+  color: #4350A0;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.custom-nav .navbar-brand span:hover {
+  color: #e36387;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link {
+  color: #4350A0;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 0.8em;
+  margin-top: 3px;
+  transition: 0.3s color ease;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #e36387;
+}
+
+/* custom section */
+.custom-section {
+  margin-top: 1em;
+}
+
+.custom-section h2 {
+  color: #e36387;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 1px 1px 2px;
+  margin-top: 1em;
+}
+
+h3 {
+  color: #e36387;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 1px 1px 1px;
+}
+
+p {
+  color: #4350A0;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2.1em;
+}
+
+.kiri {
+  display: inline-block;
+  color: white;
+  background-color: #4350A0;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.kiri:hover {
+  color: #fff;
+  background-color: #e36387;
+  text-decoration: none;
+}
+
+.kanan {
+  display: inline-block;
+  color: #4350A0;
+  background-color: white;
+  text-transform: uppercase;
+  border: 1px solid #4350A0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-decoration: none;
+}
+
+.kanan:hover {
+  color: #e36387;
+  background-color: #fff;
+  border: 1px solid #e36387;
+  text-decoration: none;
+}
+
+/* akhir custom section */
+
+/* bagian responsive */
+/* iphone 5/SE */
+@media (min-width: 320px) and (max-width: 369px) {
+  body {
+    text-align: center;
+  }
+
+  .custom-section h2 {
+    margin-top: 0rem;
+  }
+
+  h3 {
+    text-shadow: 1px 1px 2px;
+  }
+
+  p {
+    margin-top: 2.5em;
+    margin-bottom: 0.5rem;
+  }
+
+  .custom-section {
+    margin-bottom: 2.5em;
+  }
+
+  .custom-nav {
+    margin-top: -1em;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #4350A0;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 0.8em;
+    margin-top: -1px;
+    margin-left: 10em;
+    transition: 0.3s color ease;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: #e36387;
+  }
+}
+
+/* iphone 6,7,8 */
+@media (min-width: 360px) and (max-width: 410px) {
+  body {
+    text-align: center;
+  }
+
+  .custom-section h2 {
+    margin-top: 0.5em;
+  }
+
+  h3 {
+    text-shadow: 1px 1px 2px;
+  }
+
+  p {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .custom-nav {
+    margin-top: -1em;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #4350A0;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 0.8em;
+    margin-top: -1px;
+    margin-left: 13em;
+    transition: 0.3s color ease;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: #e36387;
+  }
+}
+
+/* Pixel 2 */
+@media (min-width: 411px) and (max-width: 539px) {
+  body {
+    text-align: center;
+  }
+
+  .custom-section h2 {
+    margin-top: 0.5em;
+  }
+
+  h3 {
+    text-shadow: 1px 1px 2px;
+  }
+
+  p {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .custom-nav {
+    margin-top: -1em;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #4350A0;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 0.8em;
+    margin-top: -1px;
+    margin-left: 13em;
+    transition: 0.3s color ease;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: #e36387;
+  }
+}
+
+/* surface duo */
+@media (min-width: 540px) and (max-width: 767px) {
+  body {
+    text-align: center;
+  }
+
+  .custom-section h2 {
+    margin-top: 0.8em;
+  }
+
+  h3 {
+    text-shadow: 1px 1px 2px;
+  }
+
+  p {
+    margin-top: 3.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .custom-nav {
+    margin-top: -1em;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #4350A0;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 0.8em;
+    margin-top: -1px;
+    margin-left: 22em;
+    transition: 0.3s color ease;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: #e36387;
+  }
+}
